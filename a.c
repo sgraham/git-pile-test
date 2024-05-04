@@ -1,7 +1,5 @@
-int func(void) {
-    // secret value.
-    return 4;
-}
+extern int func();
+
 int main(void) {
     // call func
     func();
