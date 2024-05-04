@@ -1,4 +1,4 @@
-int func() {
-  // secret value
-  return 2+2;
+extern int stuff();
+int func(void) {
+  return stuff();
 }
