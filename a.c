@@ -1,6 +1,4 @@
-int func(void) {
-    return 4;
-}
+extern int func();
 int main(void) {
     func();
 }
