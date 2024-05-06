@@ -1,3 +1,4 @@
-int func() {
-  return 2+2;
+extern int stuff();
+int func(void) {
+  return stuff();
 }
